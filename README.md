@@ -1,2 +1,2 @@
 # saturn-v.nix
-A convenient environment for bulding and developing saturn-v on NixOS 
+A convenient environment for building and flashing saturn-v on NixOS
