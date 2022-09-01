@@ -1,8 +1,8 @@
-{ pkgs,
-  stdenv,
-  fetchFromGitHub,
-  gcc-arm-embedded,
-  ...
+{ pkgs
+, stdenv
+, fetchFromGitHub
+, gcc-arm-embedded
+, ...
 }:
 
 with pkgs;
