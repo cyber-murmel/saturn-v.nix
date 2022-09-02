@@ -16,10 +16,15 @@ nix-build -A saturn-v-qtpy
 ## Flashing
 For flashing run `nix-shell` in the root of this repository.
 This enters an environment providing scripts for flashing saturn-v using [Black Magic Probe](https://github.com/blackmagic-debug/blackmagic).
+It is not necessary to create the firmware manually, as it gets built when entering the environment.
 
 ```shell
 # enter environment
 nix-shell
-# flash saturn-v
+
+# flash saturn-v with Black Magic Probe
 bmp-flash-saturn-v
+
+# flash QT Py variant
+bmp-flash-saturn-v-qtpy
 ```
